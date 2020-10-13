@@ -1,0 +1,11 @@
+name: 'Hello World'
+description: 'Greet someone'
+inputs:
+  who:
+    description: 'Who to greet'
+    required: true
+    default: 'world'
+runs:
+  using: 'node12'
+  main: 'index.js'
+  
