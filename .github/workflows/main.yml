@@ -4,10 +4,7 @@ jobs:
   hello_world_job:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Hello world action step
-        uses: ./ 
-        id: hello
+      - uses: actions/checkout@v2
+      - uses: ./ 
         with:
-          who: 'Mona the Octocat'
+          who-to-greet: 'Bob the builder'

@@ -1,11 +1,10 @@
-name: 'Hello World'
-description: 'Greet someone'
+name: hello world action
+description: greets someone
 inputs:
   who:
-    description: 'Who to greet'
+    description: 'who to greet'
     required: true
-    default: 'world'
+    defaultValue: 'bob'
 runs:
   using: 'node12'
   main: 'index.js'
-  
