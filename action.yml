@@ -4,7 +4,7 @@ inputs:
   who:
     description: 'who to greet'
     required: true
-    defaultValue: 'bob'
+    default: 'bob'
 runs:
   using: 'node12'
   main: 'index.js'
